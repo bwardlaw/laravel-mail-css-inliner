@@ -1,5 +1,5 @@
 {
-    "name": "fedeisas/laravel-mail-css-inliner",
+    "name": "bwardlaw/laravel-mail-css-inliner",
     "description": "Inline the CSS of your HTML emails using Laravel",
     "keywords": [
         "laravel",
@@ -16,7 +16,7 @@
     "require": {
         "php": "^7.2.5",
         "ext-dom": "*",
-        "illuminate/support": "^7.4",
+        "illuminate/support": "^7.4|8.*",
         "tijsverkoyen/css-to-inline-styles": "~2.0"
     },
     "require-dev": {
